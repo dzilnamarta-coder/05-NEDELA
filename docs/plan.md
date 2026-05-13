@@ -37,7 +37,7 @@ Lai viss nebūtu vienā lielā putrā, es sadalīšu kodu 4 failos:
 ## D. Kā tas reāli strādās
 1. **Ja viss sanāk:** Es gribu pievienot tēriņu. Programma man prasa datumu, summu, kategoriju. Es ievadu, viņa saglabā failā un pasaka "Tēriņš pievienots!".
 2. **Ja es kļūdos:** Es netīšām summas vietā uzrakstu vārdu "pieci". Programma nenobruks, bet vienkārši pateiks "Lūdzu, ievadi normālu ciparu!" un prasīs vēlreiz.
-3. **Meklēšana:** Lietotājs grib redzēt tēriņus, bet nekas vēl nav ierakstīts. Programma pasaka "Saraksts ir tukšs!".
+3. **Meklēšana:** Lietotājs grib redzēt tēriņus, bet nekas vēl nav ierakstīts. Programma pasaka "Saraksts ir tukšs!"
 
 ## E. Kas notiks neparastās situācijās (Robežgadījumi)
 1. **Nav faila:** Kad pirmo reizi atvēršu programmu, faila `expenses.json` vēl nebūs. Programma nesabīsies, bet vienkārši sāks darbu ar tukšu sarakstu `[]`.
