@@ -1,0 +1,26 @@
+[
+    {
+        "date": "2026-04-13",
+        "category": "Mājoklis",
+        "amount": 13.0,
+        "description": "Internets"
+    },
+    {
+        "date": "2026-01-01",
+        "category": "Ēdiens",
+        "amount": 1.5,
+        "description": "Bulciņa"
+    },
+    {
+        "date": "2026-01-01",
+        "category": "Apģērbs",
+        "amount": 2.5,
+        "description": "Zeķes"
+    },
+    {
+        "date": "2026-05-13",
+        "category": "Veselība",
+        "amount": 16.0,
+        "description": "Zāles kaklam"
+    }
+]
