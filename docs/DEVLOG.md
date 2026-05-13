@@ -3,7 +3,7 @@
 ### Pirmie soļi 
 Šodien man gāja raibi. Sākumā bija liela putra ar termināli un VS Code, nekas negribēja vērties vaļā, bet beigās izdevās visu savienot ar GitHub. Varbūt šis ir iemesls tam ka biju paņēmusi pauzi, un dažas detaļas " Izkrita no galvas" ;D
 
-### Darba gaita
+### Darba gaita 1. un 2. solis
 - Uzrakstīju projekta plānu, lai pati saprastu, ko gribu uztaisīt.
 - Izveidoju mapju struktūru un pirmos failus.
 - Sataisīju `storage.py`, lai dati tiešām saglabātos tajā JSON failā un nekur nepazustu.
@@ -71,11 +71,32 @@ atrisināju kļūdu, ieliekot summas prasīšanu vēl vienā while ciklā. Tagad
 
 
 
-### Darba gaita turpinājums
+### 3.solis darba gaita
 - Šajā posmā es pabeidzu 3.soli, pievienojot logic.py failam funkcijas, kas māk atlasīt pieejamos mēnešus, filtrēt tēriņus un sagrupēt tos pa kategorijām, savukārt app.py papildināju ar jaunu izvēlni, lai to visu varētu ērti apskatīt. 
 - Pabeidzot 3. soli, es pamanīju kaitinošu kļūdu dzēšanas funkcijā — ja es nejauši ierakstīju numuru, kura nav sarakstā (piemēram, 7 vai 10), programma mani vienkārši izmeta atpakaļ uz galveno izvēlni un viss bija jāsāk no jauna. Lai to izlabotu, es izmainīju kodu un ieliku dzēšanu while ciklā, tāpēc tagad programma ir daudz gudrāka un kļūdas gadījumā nevis izslēdzas, bet gan parāda brīdinājumu un turpat uzreiz prasa ievadīt numuru vēlreiz. Tas padara lietošanu daudz ērtāku, jo es varu mēģināt, kamēr trāpu pareizo skaitli vai izvēlos 0, lai atceltu, nevis katru reizi skraidu cauri visai izvēlnei.
 
 ### Kļūda
+
+### Darba gaita turpinājums 4. solis
+- Izveidoju moduli export.py, kurā ieliku funkciju datu saglabāšanai CSV formātā. Tas bija nepieciešams, lai manus tēriņus varētu atvērt un apstrādāt programmā Excel.
+- Papildināju app.py ar 6. izvēlnes punktu, kur lietotājs var pats ierakstīt faila nosaukumu.
+- Moduļu spēks: Sapratu, kāpēc kodu dala failos (app, logic, storage, export). Tas palīdz neapjukt, kad programma kļūst lielāka.
+Lietotājam nevar uzticēties: Iemācījos taisīt "stūrgalvīgos" while ciklus, kas neļauj lietotājam salauzt programmu, ievadot nepareizus datus vai burtus skaitļu vietā.
+- Gala rezultātā man ir strādājoša programma, kas ne tikai saglabā datus, bet arī māk tos analizēt (summas pa mēnešiem un kategorijām) un eksportēt profesionālā formātā. Lai gan sākumā bija "putra", tagad kods ir tīrs un saprotams.
+
+### Paraugs saglabāšanai 
+1 Pievienot izdevumu
+2) Parādīt visus
+3) Filtrēt pēc mēneša
+4) Kopsavilkums pa kategorijām
+5) Dzēst izdevumu
+6) Eksportēt uz CSV
+7) Iziet
+
+Izvēlies darbību: > 6
+
+Faila nosaukums [izdevumi.csv]: > izdevumi- maijs.csv
+✓ Eksportēts: 4 ieraksti -> izdevumi- maijs.csv
 
 --- IZVĒLNE ---
 1) Pievienot izdevumu
@@ -115,5 +136,6 @@ X Kļūda: Numurs 10 nav sarakstā. Mēģini vēlreiz!
 
  
 ### Grūtības:
-Visgrūtāk gāja ar Git un zariem (branches). Pāris reizes faili nosvītrojās un pazuda, bet beigās iemācījos tos atdabūt un visu pareizi nosūtīt uz GitHub.
-
+- Visgrūtāk gāja ar Git un zariem (branches). Pāris reizes faili nosvītrojās un pazuda, bet beigās iemācījos tos atdabūt un visu pareizi nosūtīt uz GitHub.
+- Lietotājam nevar uzticēties: Iemācījos taisīt "stūrgalvīgos" while ciklus, kas neļauj lietotājam salauzt programmu, ievadot nepareizus datus vai burtus skaitļu vietā.
+- Git pacietība: Iemācījos, ka merge un checkout nav nekas briesmīgs, ja vien saprot, kurā "zarā" atrodas.
